@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ep.dao.AccountDao">
+<!--    定义封装account和user的resultMap-->
+    <resultMap id="accountUserMap" type="account">
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+<!--        一对一的关系映射：配置封装user的内容 javaType属性不要忘，用于提示封装在哪个类中 -->
+        <association property="user" column="uid" javaType="user">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="address" column="address"></result>
+            <result property="sex" column="sex"></result>
+            <result property="birthday" column="birthday"></result>
+        </association>
+    </resultMap>
+
+    <!--    配置查询所有操作-->
+    <select id="findAll" resultMap="accountUserMap">
+        select u.*,a.id as aid,a.uid,a.money from account a,user u where a.uid = u.id
+    </select>
+
+<!--    查询所有账户以及对应的用户信息-->
+    <select id="findAllAccountUser" resultType="accountuser">
+        SELECT a.*,u.username,u.address FROM USER u,account a  WHERE u.id = a.uid;
+    </select>
+
+    <!--    根据id查询用户,这里的类型也可以填java.lang.Integer-->
+    <select id="findById" parameterType="INT" resultType="User">
+        select * from user where id = #{id}
+    </select>
+
+
+
+</mapper>
