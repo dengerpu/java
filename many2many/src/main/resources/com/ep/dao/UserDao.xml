@@ -10,13 +10,20 @@
         <result property="sex" column="sex"></result>
         <result property="address" column="address"></result>
         <result property="birthday" column="birthday"></result>
+        <collection property="roles" ofType="role" >
+            <id property="roleId" column="id"></id>
+            <result property="roleName" column="role_name"></result>
+            <result property="roleDsec" column="role_dsec"></result>
+        </collection>
         
     </resultMap>
 
 
 <!--    配置查询所有用户以及对应的账户-->
     <select id="findAll" resultMap="userMap">
-        SELECT * FROM USER
+       SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM USER u
+       LEFT OUTER JOIN user_role ur ON u.id = ur.uid
+       LEFT OUTER JOIN role r ON ur.rid = r.id
     </select>
 
 
