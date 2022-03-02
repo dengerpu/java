@@ -1,0 +1,40 @@
+#普通数据的配置 中间必须有一个空格
+name: zhangsan
+
+#对象的配置
+person:
+  name: zhangsan
+  age: 18
+  address: beijing
+
+#行内对象的配置
+person2: {name: zhangsan,age: 18,address: beijing}
+
+#server:
+#  port: 8080
+
+#配置数组，集合（普通字符串）
+city:
+  - beijing
+  - tianjin
+  - chongqing
+  - shanghai
+
+city2: [beijing,tianjin,chongqing,shanghai]
+
+#配置数组，集合（对象数据）
+student:
+  - name: tom
+    age: 18
+    address: beijing
+  - name: lucy
+    age: 17
+    address: tianjin
+
+student1: [{name: tom,age: 18,address: beijing},{name: lucy,age: 17,address: chongqing}]
+
+
+#map配置
+map:
+  key1: value1
+  key2: value2
