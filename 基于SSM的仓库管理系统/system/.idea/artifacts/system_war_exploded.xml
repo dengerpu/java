@@ -1,0 +1,56 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="system:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/system_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="system" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="aopalliance-1.0.jar" module-name="system" />
+          <element id="library" level="module" name="asm-3.3.1.jar" module-name="system" />
+          <element id="library" level="module" name="c3p0-0.9.1.2-jdk1.3.jar" module-name="system" />
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="system" />
+          <element id="library" level="module" name="c3p0-oracle-thin-extras-0.9.1.2.jar" module-name="system" />
+          <element id="library" level="module" name="cglib-2.2.2.jar" module-name="system" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="system" />
+          <element id="library" level="module" name="jackson-core-asl-1.9.11.jar" module-name="system" />
+          <element id="library" level="module" name="jackson-mapper-asl-1.9.11.jar" module-name="system" />
+          <element id="library" level="module" name="javassist-3.17.1-GA.jar" module-name="system" />
+          <element id="library" level="module" name="jstl.jar" module-name="system" />
+          <element id="library" level="module" name="log4j-1.2.17.jar" module-name="system" />
+          <element id="library" level="module" name="log4j-api-2.0-rc1.jar" module-name="system" />
+          <element id="library" level="module" name="log4j-core-2.0-rc1.jar" module-name="system" />
+          <element id="library" level="module" name="mybatis-3.2.7.jar" module-name="system" />
+          <element id="library" level="module" name="mybatis-spring-1.2.2.jar" module-name="system" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.6-bin.jar" module-name="system" />
+          <element id="library" level="module" name="slf4j-api-1.7.5.jar" module-name="system" />
+          <element id="library" level="module" name="slf4j-log4j12-1.7.5.jar" module-name="system" />
+          <element id="library" level="module" name="spring-aop-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-aspects-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-beans-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-context-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-context-support-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-core-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-expression-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-framework-bom-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-instrument-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-instrument-tomcat-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-jdbc-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-jms-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-messaging-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-orm-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-oxm-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-test-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-tx-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-web-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-webmvc-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-webmvc-portlet-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="spring-websocket-4.0.0.RELEASE.jar" module-name="system" />
+          <element id="library" level="module" name="standard.jar" module-name="system" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="system/web/Web" />
+    </root>
+  </artifact>
+</component>
