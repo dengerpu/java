@@ -2,41 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc8ced5-947f-4e1b-9073-6339815d57bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/ResultInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserXmlMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/SendMailUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-pro.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/QuotaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/QuotaBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/utils/VerifyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/VerifyUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/TutorsystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/TutorsystemApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ep/TutorsystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/TutorsystemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/config/CorsConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ep/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ep/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/domain/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ep/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ep/test/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ep/test/MapperTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ep/tutorsystem/TutorsystemApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorsystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorsystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/artifacts/system_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/system.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,63 +72,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="722">
+              <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1231#1232#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1393#1394#0" expanded="true" />
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1463#1464#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="5738">
+              <caret line="311" column="42" selection-start-line="311" selection-start-column="30" selection-end-line="311" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1197">
+              <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/PaperController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3116">
+              <caret line="178" column="39" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +120,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/SendMailUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,24 +146,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/RandomUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="1824">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/PaperMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="1387">
+              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,24 +167,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/PaperService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="1045">
+              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,12 +179,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/PaperServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="1672">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,44 +204,70 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mystudent</find>
+    </findStrings>
     <dirStrings>
       <dir>D:\@java_study\tutorsystem\src\main\java\com\ep</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMaper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMaper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMap.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/Mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/myMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ep/test/TeacherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/QuotaBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ep/test/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/NoticeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/Notice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ep/test/NoticeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/TeacherBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/NoticeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/ApplationRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/ApplationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/ApplationRecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/ApplationRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/ApplicationRecordController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/NoticeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/NoticeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/Paper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-pro.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ep/TutorsystemApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserXmlMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/GrowthPlan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/GrowthPlanMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/GrowthPlanService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/GrowthPlanServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/GrowthPlanController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/Meta.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ep/test/MapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/domain/ResultInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/EmailController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/mapper/PaperMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/PaperService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/service/impl/PaperServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ep/controller/PaperController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/utils/SendMailUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" />
       </list>
     </option>
   </component>
@@ -266,10 +289,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="12" />
-    <option name="width" value="1500" />
-    <option name="height" value="1183" />
+    <option name="x" value="660" />
+    <option name="width" value="1945" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -279,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,22 +341,62 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ep" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorsystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ep" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorsystem" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +432,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -382,15 +444,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/ep/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../基于SSM的仓库管理系统" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ep.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\@java_study\tutorsystem\src\main\java\com\ep\utils" />
       <recent name="D:\@java_study\tutorsystem\src\main\resources" />
@@ -409,7 +474,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TutorsystemApplication (1)">
-    <configuration name="MapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ep.utils.MailUtils" />
+      <module name="tutorsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ep.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoticeTest.testFindTeacherById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorsystem" />
       <extension name="coverage">
         <pattern>
@@ -418,14 +496,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ep.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ep.test.MapperTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.ep.test.NoticeTest" />
+      <option name="METHOD_NAME" value="testFindTeacherById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoticeTest.testUpdateUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorsystem" />
       <extension name="coverage">
         <pattern>
@@ -434,14 +512,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ep.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ep.test.MapperTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.ep.test.NoticeTest" />
+      <option name="METHOD_NAME" value="testUpdateUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTest.testfindAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TutorsystemApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ep" />
+      <option name="MAIN_CLASS_NAME" value="com.ep.TutorsystemApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testFindAllUserEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorsystem" />
       <extension name="coverage">
         <pattern>
@@ -450,8 +544,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ep.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ep.test.MapperTest" />
-      <option name="METHOD_NAME" value="testfindAllUser" />
+      <option name="MAIN_CLASS_NAME" value="com.ep.test.UserTest" />
+      <option name="METHOD_NAME" value="testFindAllUserEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -473,9 +567,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapperTest.test2" />
-        <item itemvalue="JUnit.MapperTest.test" />
-        <item itemvalue="JUnit.MapperTest.testfindAllUser" />
+        <item itemvalue="JUnit.UserTest.testFindAllUserEmail" />
+        <item itemvalue="Application.MailUtils" />
+        <item itemvalue="JUnit.TutorsystemApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.NoticeTest.testFindTeacherById" />
+        <item itemvalue="JUnit.NoticeTest.testUpdateUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -494,43 +590,113 @@
       <workItem from="1648298848732" duration="1556000" />
       <workItem from="1648345011910" duration="10511000" />
       <workItem from="1648374809699" duration="8744000" />
+      <workItem from="1648427232342" duration="5753000" />
+      <workItem from="1648435649850" duration="17636000" />
+      <workItem from="1648517538696" duration="2203000" />
+      <workItem from="1648535983095" duration="6841000" />
+      <workItem from="1648616199790" duration="20799000" />
+      <workItem from="1648687616522" duration="2015000" />
+      <workItem from="1648709027895" duration="645000" />
+      <workItem from="1648727275263" duration="717000" />
+      <workItem from="1648776564727" duration="4874000" />
+      <workItem from="1648796487605" duration="3871000" />
+      <workItem from="1648862149760" duration="744000" />
+      <workItem from="1648880116177" duration="5382000" />
+      <workItem from="1648950731247" duration="3109000" />
+      <workItem from="1648966632505" duration="3001000" />
+      <workItem from="1648985519313" duration="6035000" />
+      <workItem from="1649032829793" duration="5576000" />
+      <workItem from="1649054790356" duration="4134000" />
+      <workItem from="1649075381299" duration="3742000" />
+      <workItem from="1649119085053" duration="6923000" />
+      <workItem from="1649138365663" duration="10850000" />
+      <workItem from="1649162044564" duration="3679000" />
+      <workItem from="1649206910659" duration="6521000" />
+      <workItem from="1649226373926" duration="3262000" />
+      <workItem from="1649233744856" duration="980000" />
+      <workItem from="1649246498407" duration="846000" />
+      <workItem from="1649325202748" duration="6647000" />
+      <workItem from="1649379088556" duration="6002000" />
+      <workItem from="1649400993155" duration="6726000" />
+      <workItem from="1649418540366" duration="1482000" />
+      <workItem from="1649465363228" duration="3562000" />
+      <workItem from="1649554159457" duration="6349000" />
+      <workItem from="1649639608867" duration="9682000" />
+      <workItem from="1649749054801" duration="27000" />
+      <workItem from="1649750274769" duration="185000" />
+      <workItem from="1649752481789" duration="706000" />
+      <workItem from="1649763452110" duration="686000" />
+      <workItem from="1649817725976" duration="653000" />
+      <workItem from="1649826884531" duration="11031000" />
+      <workItem from="1649855420835" duration="637000" />
+      <workItem from="1649888716605" duration="3920000" />
+      <workItem from="1649921741937" duration="1473000" />
+      <workItem from="1649984991869" duration="224000" />
+      <workItem from="1649990232789" duration="3775000" />
+      <workItem from="1650111431073" duration="4449000" />
+      <workItem from="1650159703990" duration="8520000" />
+      <workItem from="1650242828229" duration="2936000" />
+      <workItem from="1650262802005" duration="978000" />
+      <workItem from="1650334574833" duration="1615000" />
+      <workItem from="1650351898652" duration="4017000" />
+      <workItem from="1650367409390" duration="3804000" />
+      <workItem from="1650412946216" duration="9231000" />
+      <workItem from="1650447214026" duration="706000" />
+      <workItem from="1650517421357" duration="3055000" />
+      <workItem from="1650522775716" duration="2150000" />
+      <workItem from="1650542258190" duration="1203000" />
+      <workItem from="1650617339782" duration="9005000" />
+      <workItem from="1650674622750" duration="1716000" />
+      <workItem from="1650693374055" duration="4383000" />
+      <workItem from="1650705686360" duration="1208000" />
+      <workItem from="1650718496193" duration="814000" />
+      <workItem from="1650786877270" duration="2556000" />
+      <workItem from="1650802363953" duration="1568000" />
+      <workItem from="1651048994395" duration="1934000" />
+      <workItem from="1651051265765" duration="142000" />
+      <workItem from="1651102099492" duration="662000" />
+      <workItem from="1651109397139" duration="749000" />
+      <workItem from="1651112621966" duration="621000" />
+      <workItem from="1651134830775" duration="630000" />
+      <workItem from="1651241701789" duration="694000" />
+      <workItem from="1651284271378" duration="467000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MapperTest_testfindAllUser - 2022.03.02 at 17h 50m 49s.xml">
-      <configuration name="MapperTest.testfindAllUser" configurationId="JUnit" />
+    <history-entry file="TeacherTest_testFindAlready - 2022.04.05 at 17h 28m 00s.xml">
+      <configuration name="TeacherTest.testFindAlready" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_testfindAllUser - 2022.03.02 at 17h 52m 25s.xml">
-      <configuration name="MapperTest.testfindAllUser" configurationId="JUnit" />
+    <history-entry file="TeacherTest_testFindAlready - 2022.04.05 at 17h 30m 45s.xml">
+      <configuration name="TeacherTest.testFindAlready" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_testfindAllUser - 2022.03.02 at 17h 56m 55s.xml">
-      <configuration name="MapperTest.testfindAllUser" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testsaveuser - 2022.04.07 at 21h 23m 12s.xml">
+      <configuration name="NoticeTest.testsaveuser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_testfindAllUser - 2022.03.02 at 17h 57m 11s.xml">
-      <configuration name="MapperTest.testfindAllUser" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testFindStudentByUsername - 2022.04.07 at 21h 23m 25s.xml">
+      <configuration name="NoticeTest.testFindStudentByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2022.03.02 at 17h 58m 29s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testFindTotalTeacher - 2022.04.07 at 21h 23m 40s.xml">
+      <configuration name="NoticeTest.testFindTotalTeacher" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2022.03.02 at 17h 59m 33s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testFindTeacherById - 2022.04.07 at 21h 23m 52s.xml">
+      <configuration name="NoticeTest.testFindTeacherById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2022.03.02 at 18h 05m 45s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testUpdateUserById - 2022.04.07 at 21h 24m 08s.xml">
+      <configuration name="NoticeTest.testUpdateUserById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2022.03.27 at 13h 16m 16s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="NoticeTest_testFindTeacherById - 2022.04.07 at 21h 24m 21s.xml">
+      <configuration name="NoticeTest.testFindTeacherById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test - 2022.03.27 at 13h 18m 37s.xml">
-      <configuration name="MapperTest.test" configurationId="JUnit" />
+    <history-entry file="TutorsystemApplicationTests_contextLoads - 2022.04.08 at 20h 03m 44s.xml">
+      <configuration name="TutorsystemApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapperTest_test2 - 2022.03.27 at 13h 24m 33s.xml">
-      <configuration name="MapperTest.test2" configurationId="JUnit" />
+    <history-entry file="UserTest_testFindAllUserEmail - 2022.04.22 at 19h 46m 23s.xml">
+      <configuration name="UserTest.testFindAllUserEmail" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25521000" />
+    <option name="totallyTimeSpent" value="289239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,19 +710,18 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.40951744" />
+      <window_info id="Structure" order="1" sideWeight="0.50409836" side_tool="true" weight="0.28984576" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34419262" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34135976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -564,10 +729,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -578,259 +744,208 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.30764076" />
+      <window_info id="Structure" order="1" sideWeight="0.50409836" side_tool="true" weight="0.28984576" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34135976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMaper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/myMapper.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/annotation/MapperScan.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/ApplationRecordServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-pro.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ep/TutorsystemApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/UserXmlMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="855">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/Meta.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ep/test/MapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="42" column="36" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="266">
+          <caret line="14" column="82" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/ResultInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1025#1026#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.16/spring-web-5.3.16.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="1197">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="855">
+          <caret line="66" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="66" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="817">
+          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/NoticeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/NoticeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="10" selection-start-line="10" selection-end-line="49" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/NoticeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="61" column="94" selection-start-line="61" selection-start-column="94" selection-end-line="61" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.6.4/spring-boot-autoconfigure-2.6.4.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="267" column="44" selection-start-line="267" selection-start-column="44" selection-end-line="267" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/GrowthPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1630#1631#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/GrowthPlanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/GrowthPlanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -841,15 +956,344 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/SendMailUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ep/TutorsystemApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/GrowthPlanMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/GrowthPlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/NoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2711">
+          <caret line="149" column="44" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/EmailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2945">
+          <caret line="169" column="41" selection-start-line="169" selection-start-column="30" selection-end-line="169" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
+          <folding>
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="81" column="67" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/ApplicationRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2325">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3273#3274#0" expanded="true" />
+            <element signature="e#3331#3332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="159" column="5" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+          <folding>
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2582#2583#0" expanded="true" />
+            <element signature="e#2625#2626#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="58" selection-start-line="58" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4712">
+          <caret line="257" column="5" selection-start-line="234" selection-start-column="3" selection-end-line="257" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5244">
+          <caret line="287" selection-start-line="287" selection-end-line="308" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="74" column="5" selection-start-line="60" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5738">
+          <caret line="311" column="42" selection-start-line="311" selection-start-column="30" selection-end-line="311" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/PaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3116">
+          <caret line="178" column="39" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/mapper/PaperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/PaperService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/service/impl/PaperServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -857,6 +1301,29 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -870,6 +1337,18 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|tutorsystem</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

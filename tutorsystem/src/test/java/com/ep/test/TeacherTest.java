@@ -3,43 +3,40 @@ package com.ep.test;
 import com.ep.TutorsystemApplication;
 import com.ep.domain.Student;
 import com.ep.domain.Teacher;
-import com.ep.domain.User;
 import com.ep.service.StudentService;
 import com.ep.service.TeacherService;
-import com.ep.service.impl.UserServiceImpl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = TutorsystemApplication.class)
-public class StudentTest {
+public class TeacherTest {
 
     @Autowired
-    private StudentService studentService;
+    private TeacherService teacherService;
 
     /*
      * 测试按照用户名查找用户信息
      * */
     @Test
     public void testsaveuser(){
-        Student student = new Student();
+        Teacher teacher = new Teacher();
 
-        student.setUsername("123456");
-        student.setName("张三");
-        student.setCollege("软件学院");
-        student.setMajor("软件工程");
-        student.setEmail("123456@qq.com");
-        student.setPhone("18239026314");
-        student.setHonor("河南优秀教师");
-        student.setInterest("软件开发");
+        teacher.setUsername("123456");
+        teacher.setName("张三");
+        teacher.setCollege("软件学院");
+        teacher.setMajor("软件工程");
+        teacher.setEmail("123456@qq.com");
+        teacher.setPhone("18239026314");
+        teacher.setHonor("河南优秀教师");
+        teacher.setInterest("软件开发");
 
-        studentService.saveStudent(student);
+        teacherService.saveTeacher(teacher);
     }
 
 
@@ -50,8 +47,8 @@ public class StudentTest {
     public void testFindStudentByUsername(){
        String username = "123456";
 
-        Student student = studentService.findStudentByUsername(username);
-        System.out.println(student);
+        Teacher teacher = teacherService.findTeacherByUsername(username);
+        System.out.println(teacher);
     }
 
     /*
@@ -59,8 +56,9 @@ public class StudentTest {
      * */
     @Test
     public void testFindAllUser(){
-        List<Student> allStudent = studentService.findAllStudent("", 1, 10);
-        for(Student u: allStudent){
+        List<Teacher> allTeacher = teacherService.findAllTeacher("", 1, 10);
+
+        for(Teacher u: allTeacher){
             System.out.println(u);
         }
     }
@@ -70,17 +68,18 @@ public class StudentTest {
      * */
     @Test
     public void testFindTotalTeacher(){
-        int totalStudent = studentService.findTotalStudent("");
+        int totalTeacher = teacherService.findTotalTeacher("");
 
-        System.out.println(totalStudent);
+        System.out.println(totalTeacher);
     }
     /*
      * 测试根据id查询用户
      * */
     @Test
     public void testFindTeacherById(){
-        Student studentById = studentService.findStudentById(1);
-        System.out.println(studentById);
+        Teacher teacher = teacherService.findTeacherById(1);
+
+        System.out.println(teacher);
     }
 
     /*
@@ -88,7 +87,7 @@ public class StudentTest {
      * */
     @Test
     public void testDeleteUserById(){
-        studentService.deleteStudentById(2);
+        teacherService.deleteTeacherById(2);
     }
     /*
      * 测试根更新用户
@@ -96,18 +95,26 @@ public class StudentTest {
     @Test
     public void testUpdateUserById(){
 
-        Student student = new Student();
-        student.setId(1);
-        student.setUsername("123456");
-        student.setName("张三");
-        student.setCollege("软件学院");
-        student.setMajor("软件工程");
-        student.setEmail("123456@qq.com");
-        student.setPhone("18239026314");
-        student.setHonor("河南优秀教师");
-        student.setInterest("软件开发");
-        student.setSex("男");
+        Teacher teacher = new Teacher();
+        teacher.setId(1);
+        teacher.setUsername("123456");
+        teacher.setName("张三");
+        teacher.setCollege("软件学院");
+        teacher.setMajor("软件工程");
+        teacher.setEmail("123456@qq.com");
+        teacher.setPhone("18239026314");
+        teacher.setHonor("河南优秀教师");
+        teacher.setInterest("软件开发");
+        teacher.setSex("男");
 
-        studentService.updateStudentById(student);
+        teacherService.updateTeacherById(teacher);
+    }
+    /*
+    * 测试查找老师实际招生名额
+    * */
+    @Test
+    public void testFindAlready(){
+        int alreadAdmission = teacherService.findAlreadAdmission(1);
+        System.out.println(alreadAdmission);
     }
 }

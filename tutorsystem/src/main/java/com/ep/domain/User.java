@@ -13,6 +13,9 @@ public class User implements Serializable {
    private String type;      //用户类型
    private int status;      //状态
    private Date date;       //日期
+    private String code;    //验证码
+    private String newEmail;
+    private String newPassword;
 
     public int getId() {
         return id;
@@ -78,6 +81,30 @@ public class User implements Serializable {
         this.date = date;
     }
 
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getNewEmail() {
+        return newEmail;
+    }
+
+    public void setNewEmail(String newEmail) {
+        this.newEmail = newEmail;
+    }
+
+    public String getNewPassword() {
+        return newPassword;
+    }
+
+    public void setNewPassword(String newPassword) {
+        this.newPassword = newPassword;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -89,6 +116,9 @@ public class User implements Serializable {
                 ", type='" + type + '\'' +
                 ", status=" + status +
                 ", date=" + date +
+                ", code='" + code + '\'' +
+                ", newEmail='" + newEmail + '\'' +
+                ", newPassword='" + newPassword + '\'' +
                 '}';
     }
 }

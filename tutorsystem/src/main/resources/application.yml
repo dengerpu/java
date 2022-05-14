@@ -1,23 +1,30 @@
+spring:
+  redis:
+    host: 127.0.0.1 #redis的主机ip
+    port: 6379
+
+
+
 #server:
 #  port: 8888
 
-msg1: 'hello \n world'  #单引号忽略转义字符
-msg2: "hello \n world"  #双引号识别转义字符
-
-name: zhangsan
-
-#对象
-person:
-  name: ${name}  #参数引用   #zhangsan
-  age: 20
-
-#数组
-address:
-  - beijing
-  - shanghai
-
-#数组行内写法
-address2: [beijing,shanghai]
+#msg1: 'hello \n world'  #单引号忽略转义字符
+#msg2: "hello \n world"  #双引号识别转义字符
+#
+#name: zhangsan
+#
+##对象
+#person:
+#  name: ${name}  #参数引用   #zhangsan
+#  age: 20
+#
+##数组
+#address:
+#  - beijing
+#  - shanghai
+#
+##数组行内写法
+#address2: [beijing,shanghai]
 
 
 #---
