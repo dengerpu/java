@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc8ced5-947f-4e1b-9073-6339815d57bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/TutorsystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/config/MyWebAppConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/RelationshipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/controller/VerifyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/PageBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/QuotaBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/QuotaBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/RelationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/TeacherMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/RelationShipService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/RelationShipServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/TeacherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/MailUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ep/utils/VerifyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ep/utils/VerifyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/TeacherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ep/test/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/TutorsystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/TutorsystemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ep/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ep/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorsystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorsystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/artifacts/system_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../基于SSM的仓库管理系统/system/system.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -432,8 +381,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -660,6 +609,8 @@
       <workItem from="1651134830775" duration="630000" />
       <workItem from="1651241701789" duration="694000" />
       <workItem from="1651284271378" duration="467000" />
+      <workItem from="1653554587991" duration="713000" />
+      <workItem from="1653555568191" duration="595000" />
     </task>
     <servers />
   </component>
@@ -696,7 +647,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289239000" />
+    <option name="totallyTimeSpent" value="290547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,7 +661,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.40951744" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.42158177" />
       <window_info id="Structure" order="1" sideWeight="0.50409836" side_tool="true" weight="0.28984576" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
